@@ -298,7 +298,7 @@ header .intro-text .intro-heading {
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 250px;
-    padding-bottom: 264px;
+    padding-bottom: 265px;
     -ms-user-select: none;
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
@@ -1132,10 +1132,10 @@ body {
 .pricing .item .heading .title {
   margin-bottom: 30px;
   padding-bottom: 15px;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 25px;
   border-bottom: 1px dashed #eee;
-  color: #444;
+  color: #4c4c4c;
 }
 .pricing .item .content {
   padding: 20px 15px;

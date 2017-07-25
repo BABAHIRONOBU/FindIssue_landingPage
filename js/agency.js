@@ -44,14 +44,14 @@ $(document).ready(function(){
 
           console.log(ele.next().html());
 
-          if (typeof ele.next().offset() != "undefined") {
+          if (ele.next().get(0).tagName != "SCRIPT") {    //using 'tagName' is dangerous solution
             nextTop = ele.next().offset().top;
           }
           else {
             nextTop = $(document).height();
           }
 
-          if (ele.offset() !== null) {
+          if (ele.offset().top > 0) {
             thisTop = ele.offset().top - ((nextTop - ele.offset().top) / numSections);
           }
           else {
